@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>Unit Converter</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>Welcome to Unit Converter</h2>
+        <div id="input-form">
+            <label for="enter">Enter in metres</label>
+            <input type="number" id="enter" oninput="convert()">
+        </div>
+        <div id="display-result">
+            <ul>
+                <h5 id="kilometer">1 metre is equal to 0.001 KM</h5>
+                <h5 id="foot">1 metre is equal to 3.28084 feet</h5>
+                <h5 id="milimeter">1 metre is equal to 1000 milimeter</h5>
+                <h5 id="centimeter">1 metre is equal to 100 centimeter</h5>
+            </ul>
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+
+</html>
